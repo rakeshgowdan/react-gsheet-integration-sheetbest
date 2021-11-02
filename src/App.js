@@ -119,7 +119,7 @@ export default class App extends Component {
     let from = "";
     let to = [];
     let count = "";
-
+    //eslint-disable-next-line
     if (this.state.hasOwnProperty(name)) {
       from = value;
       to = value.split("-");
